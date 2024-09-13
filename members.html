@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Multiple Team Structures</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<style>
+    body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #f4f4f4;
+}
+
+.team-structures {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.team-container {
+    background-color: #fff;
+    margin: 10px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 45%;
+}
+
+.team-leader {
+    background-color: #2f8f2f;
+    padding: 20px;
+    border-radius: 10px;
+    color: white;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.team-leader .leader-avatar {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin: 0 auto;
+}
+.team-members {
+    display: flex;
+    gap: 10px;
+    justify-content: space-around;
+}
+
+.team-members .member {
+    text-align: center;
+}
+
+.team-members .member {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    width: 30%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.member .avatar {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin: 0 auto 10px auto;
+}
+
+h2, h3, p {
+    margin: 10px 0;
+}
+.team-members .card img {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    border: 3px solid #0ca341;
+}
+.team-leader img {
+    width: 20%; /* Set width relative to container */
+    height: auto; /* Keep aspect ratio */
+    border-radius: 50%;
+    object-fit: cover; /* Ensure image fits well */
+    margin: 0 auto;
+}
+.member img {
+    width: 70%; /* Set width relative to container */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 50%;
+    object-fit: cover;
+    margin: 0 auto;
+}
+.button-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #2f8f2f;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #249324;
+}
+
+
+</style>
+<body>
+    <div class="team-structures"> 
+        <h1 style="color: #249324;">TEAMS OF OUR COMPANY</h1>   
+        <div class="team-structures">    
+            <div class="team-container">
+                <div class="team-leader">
+                    <div class="leader-avatar"></div>
+                    <img src="https://i.pinimg.com/474x/a9/75/93/a975934bb378afc4ca8c133df451f56e.jpg" alt="Team Leader">
+                    <h2>Jashanpreet</h2>
+                    <p>Project Manager</p>
+                    <span>Jashanpreet is responsible for overseeing all project operations and ensuring team synergy.</span>
+                </div>      
+                <div class="team-members">
+                    <div class="member">
+                        <div class="avatar"></div>
+                        <img src="https://i.pinimg.com/474x/a9/75/93/a975934bb378afc4ca8c133df451f56e.jpg" alt="Team Leader">
+                        <h3>Emily</h3>
+                        <p>QA Engineer</p>
+                    </div>
+                    <div class="member">
+                        <div class="avatar"></div>
+                        <img src="https://i.pinimg.com/474x/a9/75/93/a975934bb378afc4ca8c133df451f56e.jpg" alt="Team Leader">
+                        <h3>Bhumika Chopra</h3>
+                        <p>Back-end Developer</p>
+                    </div>
+                    <div class="member">
+                        <div class="avatar"></div>
+                        <img src="https://i.pinimg.com/474x/a9/75/93/a975934bb378afc4ca8c133df451f56e.jpg" alt="Team Leader">
+                        <h3>Armanpreet Kaur</h3>
+                        <p>Frontend Developer</p>
+                    </div>
+                </div>
+                <div class="button-container">
+                    <button>
+                        <a href="dashboard.html">Progress</a>
+                    </button>
+                </div>
+            </div>
+        </div>     
+        <div class="team-structures">    
+            <div class="team-container">
+                <div class="team-leader">
+                    <div class="leader-avatar"></div>
+                    <img src="https://i.pinimg.com/474x/a9/75/93/a975934bb378afc4ca8c133df451f56e.jpg" alt="Team Leader">
+                    <h2>Jashanpreet</h2>
+                    <p>Project Manager</p>
+                    <span>Jashanpreet is responsible for overseeing all project operations and ensuring team synergy.</span>
+                </div>
+        
+                <div class="team-members">
+                    <div class="member">
+                        <div class="avatar"></div>
+                        <img src="https://i.pinimg.com/474x/a9/75/93/a975934bb378afc4ca8c133df451f56e.jpg" alt="Team Leader">
+                        <h3>Emily</h3>
+                        <p>QA Engineer</p>
+                    </div>
+                    <div class="member">
+                        <div class="avatar"></div>
+                        <img src="https://i.pinimg.com/474x/a9/75/93/a975934bb378afc4ca8c133df451f56e.jpg" alt="Team Leader">
+                        <h3>Bhumika Chopra</h3>
+                        <p>Back-end Developer</p>
+                    </div>
+                    <div class="member">
+                        <div class="avatar"></div>
+                        <img src="https://i.pinimg.com/474x/a9/75/93/a975934bb378afc4ca8c133df451f56e.jpg" alt="Team Leader">
+                        <h3>Armanpreet Kaur</h3>
+                        <p>Frontend Developer</p>
+                    </div>
+                </div>
+                <div class="button-container">
+                    <button>
+                        <a href="dashboard.html">Progress</a>
+                    </button>
+                </div>
+            </div>
+        </div>      
+        <div class="team-structures">    
+            <div class="team-container">
+                <div class="team-leader">
+                    <div class="leader-avatar"></div>
+                    <img src="https://i.pinimg.com/474x/a9/75/93/a975934bb378afc4ca8c133df451f56e.jpg" alt="Team Leader">
+                    <h2>Jashanpreet</h2>
+                    <p>Project Manager</p>
+                    <span>Jashanpreet is responsible for overseeing all project operations and ensuring team synergy.</span>
+                </div>
+        
+                <div class="team-members">
+                    <div class="member">
+                        <div class="avatar"></div>
+                        <img src="https://i.pinimg.com/474x/a9/75/93/a975934bb378afc4ca8c133df451f56e.jpg" alt="Team Leader">
+                        <h3>Emily</h3>
+                        <p>QA Engineer</p>
+                    </div>
+                    <div class="member">
+                        <div class="avatar"></div>
+                        <img src="https://i.pinimg.com/474x/a9/75/93/a975934bb378afc4ca8c133df451f56e.jpg" alt="Team Leader">
+                        <h3>Bhumika Chopra</h3>
+                        <p>Back-end Developer</p>
+                    </div>
+                    <div class="member">
+                        <div class="avatar"></div>
+                        <img src="https://i.pinimg.com/474x/a9/75/93/a975934bb378afc4ca8c133df451f56e.jpg" alt="Team Leader">
+                        <h3>Armanpreet Kaur</h3>
+                        <p>Frontend Developer</p>
+                    </div>
+                </div>
+                <div class="button-container">
+                    <button>
+                        <a href="dashboard.html">Progress</a>
+                    </button>
+                </div>
+            </div>
+        </div>
+        <div class="team-structures">    
+            <div class="team-container">
+                <div class="team-leader">
+                    <div class="leader-avatar"></div>
+                    <img src="https://i.pinimg.com/474x/a9/75/93/a975934bb378afc4ca8c133df451f56e.jpg" alt="Team Leader">
+                    <h2>Jashanpreet</h2>
+                    <p>Project Manager</p>
+                    <span>Jashanpreet is responsible for overseeing all project operations and ensuring team synergy.</span>
+                </div>
+        
+                <div class="team-members">
+                    <div class="member">
+                        <div class="avatar"></div>
+                        <img src="https://i.pinimg.com/474x/a9/75/93/a975934bb378afc4ca8c133df451f56e.jpg" alt="Team Leader">
+                        <h3>Emily</h3>
+                        <p>QA Engineer</p>
+                    </div>
+                    <div class="member">
+                        <div class="avatar"></div>
+                        <img src="https://i.pinimg.com/474x/a9/75/93/a975934bb378afc4ca8c133df451f56e.jpg" alt="Team Leader">
+                        <h3>Bhumika Chopra</h3>
+                        <p>Back-end Developer</p>
+                    </div>
+                    <div class="member">
+                        <div class="avatar"></div>
+                        <img src="https://i.pinimg.com/474x/a9/75/93/a975934bb378afc4ca8c133df451f56e.jpg" alt="Team Leader">
+                        <h3>Armanpreet Kaur</h3>
+                        <p>Frontend Developer</p>
+                    </div>
+                </div>
+                <div class="button-container">
+                    <button>
+                        <a href="dashboard.html">Progress</a>
+                    </button>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+</body>
+</html>
+ 
